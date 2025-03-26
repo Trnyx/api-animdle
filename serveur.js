@@ -1,5 +1,3 @@
-require('dotenv').config({path:'db.env'});
-
 //variable environnement
 const MONGO_URI = process.env.MONGO_URI;
 const PORT = process.env.PORT;
